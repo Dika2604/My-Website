@@ -1,0 +1,101 @@
+body {
+    background-color: #6D7993;
+    font-family: system-ui;
+}
+#navbar{
+    background-color: #96858F;
+    border: solid #96858F;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+header{
+    color: white;
+    text-align:center;
+    font-size: 3vw;
+    font-family: "Cooper Black",Segoe UI,  sans-serif;
+}
+table {
+    background-color: #96858F;
+    width: 100%;
+    padding: 5px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+h3 {
+    color:white;
+    text-align:center;
+    font-size: 5vw;
+    font-family: "Cooper Black",Segoe UI,  sans-serif;
+}
+h2 {
+    color:white;
+    text-align:center;
+    font-size: 5vw;
+    font-family: "Cooper Black",Segoe UI,  sans-serif;
+}
+ol {
+    background-color: #9099a2;
+    color: #192231;
+}
+#sunset{
+    color:#D5D5D5;
+    background-color: #D5D5D5;
+}
+li{
+    color: white;
+    
+}
+footer {
+    background-color: #96858F;
+    color: white;
+    font-size: 12px;
+    border: 3px solid white;
+    padding-left: 5px;
+}
+tr{
+    color: white;
+}
+
+.profile_pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  box-shadow: 5px 5px 10px black;
+}
+.even-row {
+    background-color: #96858F;
+    text-align: center;
+}
+.dropdown{
+    display: block;
+    text-align: center;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+.dropdown-content{
+    display: none;
+    text-align: center; 
+    position: center;
+    color: white;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#96858F;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+.active {
+    background-color: #96858F;
+}
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
